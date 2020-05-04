@@ -8,7 +8,7 @@ close(io)
 path_out = tempname()
 
 # open and work with various files
-open((path, path_out), ("r", "w")) do io_in, io_out
+openmultiple((path, path_out), ("r", "w")) do io_in, io_out
     while !eof(io_in)
         s = readline(io_in)
         println(io_out, "copy: " * s)
