@@ -1,3 +1,5 @@
+[The code of this repo is not such a good idea as I first thought. I don't recommend to use it.]
+
 # IOExtension.jl
 Extension to Julia IO functions
 
